@@ -192,11 +192,17 @@ This project uses the Customer Shopping Behavior Dataset, which contains custome
 📁 Project Structure
 
 ├── Dataset/
+
 ├── Python_Notebooks/
+
 ├── SQL_Queries/
+
 ├── PowerBI_Dashboard/
+
 ├── Reports/
+
 ├── Presentation/
+
 └── README.md
 
 
@@ -217,7 +223,8 @@ This project uses the Customer Shopping Behavior Dataset, which contains custome
 
 
 👨‍💻 Author
+
 Aman Pawar
+
 Data Analytics Enthusiast | Python | SQL | Power BI
-Aman Pawar
-Data Analytics Enthusiast | Python | SQL | Power BI
+
