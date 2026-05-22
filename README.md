@@ -150,7 +150,6 @@ This project uses the Customer Shopping Behavior Dataset, which contains custome
 
 
 
-
 📈 Results & Insights
 
 --> Key outcomes from the analysis:
