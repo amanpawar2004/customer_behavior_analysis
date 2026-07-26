@@ -18,6 +18,10 @@ Customer Shopping Behavior Analysis is an end-to-end Data Analytics project that
 The project covers the complete analytics workflow, including data cleaning, feature engineering, SQL-based business analysis, and interactive dashboard development. The objective is to transform raw customer transaction data into actionable business insights that support data-driven decision making.
 
 ---
+# 📈 Power BI Dashboard
+
+The interactive dashboard provides business insights through multiple visualizations.
+![Dashboard](https://github.com/amanpawar2004/customer_behavior_analysis/blob/main/customer_shopping_behavior_ss.png?raw=true)
 
 # 🎯 Project Objectives
 
@@ -154,10 +158,6 @@ The project answers multiple real-world business questions using PostgreSQL.
 
 ---
 
-# 📈 Power BI Dashboard
-
-The interactive dashboard provides business insights through multiple visualizations.
-![Dashboard](https://github.com/amanpawar2004/customer_behavior_analysis/blob/main/customer_shopping_behavior_ss.png?raw=true)
 
 ### Dashboard Features
 
