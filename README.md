@@ -1,230 +1,333 @@
-📊 Data Analytics Project
+# 🛍️ Customer Shopping Behavior Analysis
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql">
+<img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi">
+<img src="https://img.shields.io/badge/Data%20Analytics-End--to--End-success?style=for-the-badge">
+
+</p>
+
+---
+
+# 📌 Project Overview
+
+Customer Shopping Behavior Analysis is an end-to-end Data Analytics project that analyzes customer purchasing patterns using Python, PostgreSQL, and Power BI.
+
+The project covers the complete analytics workflow, including data cleaning, feature engineering, SQL-based business analysis, and interactive dashboard development. The objective is to transform raw customer transaction data into actionable business insights that support data-driven decision making.
+
+---
+
+# 🎯 Project Objectives
+
+- Analyze customer purchasing behavior
+- Understand customer demographics
+- Identify high-value customer segments
+- Compare subscription and non-subscription customers
+- Analyze product categories and revenue
+- Study customer review ratings
+- Evaluate shipping preferences
+- Build an interactive business dashboard
+
+---
+
+# 🛠️ Tech Stack
 
-📌 Overview
+- Python
+- Pandas
+- NumPy
+- PostgreSQL
+- SQL
+- pgAdmin 4
+- Power BI
+- Jupyter Notebook
+- Git
+- GitHub
+
+---
 
-This project demonstrates an end-to-end Data Analytics workflow using Python, SQL, and Power BI. The goal of the project is to extract meaningful insights from raw data through data cleaning, exploratory data analysis (EDA), SQL querying, and interactive dashboard visualization.
-The project also includes a professional report and presentation created using Gamma for clear communication of insights and findings.
+# 📂 Project Structure
 
-📂 Dataset Description:
+```
+customer_behavior_analysis
+│
+├── dataset/
+│   └── customer_shopping_data.csv
+│
+├── notebooks/
+│   └── Customer_Shopping_Behavior_Analysis.ipynb
+│
+├── sql/
+│   └── customer_behavior_sql_queries.sql
+│
+├── dashboard/
+│   └── Customer_Behavior_Dashboard.pbix
+│
+├── report/
+│   └── Customer Shopping Behavior Analysis.pdf
+│
+├── README.md
+│
+└── LICENSE
+```
+
+---
 
-This project uses the Customer Shopping Behavior Dataset, which contains customer purchase details, subscription status, product categories, shipping preferences, review ratings, and sales information. The dataset was analyzed to understand customer behavior patterns, purchasing trends, category-wise revenue, and age-group-based sales insights. The data was further cleaned, processed, and visualized using Python, SQL, and Power BI to generate meaningful business insights.
+# 📊 Dataset Information
 
-🛠️ Technologies & Tools Used:
+The dataset contains customer shopping transactions collected from an e-commerce platform.
 
-| Tool / Technology               | Purpose                              |
-| ------------------------------- | ------------------------------------ |
-| Python                          | Data analysis and preprocessing      |
-| Pandas & NumPy                  | Data manipulation                    |
-| Matplotlib & Seaborn            | Data visualization                   |
-| PostgreSQL / MySQL / SQL Server | SQL querying and database operations |
-| Power BI                        | Interactive dashboard creation       |
-| Jupyter Notebook                | Python development environment       |
-| Gamma                           | Presentation (PPT) creation          |
+### Dataset Summary
 
+- Total Records : **3,900**
+- Total Features : **18**
+- Missing Values : **37** (Review Rating)
 
-🔍 Project Workflow
+### Features Include
 
-1. Data Loading
+- Customer ID
+- Age
+- Gender
+- Location
+- Item Purchased
+- Category
+- Purchase Amount
+- Subscription Status
+- Review Rating
+- Shipping Type
+- Discount Applied
+- Purchase Frequency
+- Previous Purchases
+- Season
+- Size
+- Color
 
+---
 
--- Imported dataset using Python
+# 🧹 Data Preprocessing
 
+The following preprocessing steps were performed using Python:
 
--- Checked dataset structure and data types
+- Imported dataset using Pandas
+- Data exploration
+- Missing value treatment
+- Column standardization
+- Feature engineering
+- Created Age Groups
+- Purchase frequency transformation
+- Removed redundant columns
+- Loaded cleaned data into PostgreSQL
 
+---
 
-2. Data Cleaning
+# 🧠 SQL Business Analysis
 
+The project answers multiple real-world business questions using PostgreSQL.
 
--- Handled missing values
+### Revenue Analysis
 
+- Revenue by Gender
+- Revenue by Age Group
+- Revenue by Category
 
--- Removed duplicates
+### Customer Analysis
 
+- Subscriber vs Non-Subscriber Analysis
+- Customer Segmentation
+- Repeat Buyer Analysis
+- High Spending Customers
 
--- Corrected inconsistent data
+### Product Analysis
 
+- Top Rated Products
+- Most Purchased Products
+- Discount Dependent Products
+- Top Products by Category
 
--- Converted data types where required
+### Sales Analysis
 
+- Shipping Type Comparison
+- Average Purchase Amount
+- Category-wise Sales
+- Purchase Frequency Analysis
 
-3. Exploratory Data Analysis (EDA)
+---
 
+# 📈 Power BI Dashboard
 
--- Statistical summary of data
+The interactive dashboard provides business insights through multiple visualizations.
 
+### Dashboard Features
 
--- Distribution analysis
+- Total Customers KPI
+- Average Purchase Amount
+- Average Review Rating
+- Revenue by Category
+- Sales by Category
+- Revenue by Age Group
+- Sales by Age Group
+- Subscription Status Analysis
+- Interactive Filters
+- Gender Analysis
+- Shipping Type Analysis
 
+---
 
--- Correlation analysis
+# 📊 Key Insights
 
+- Clothing generated the highest revenue among all product categories.
+- Young Adults contributed the highest revenue.
+- Most customers were non-subscribers.
+- Express Shipping showed a slightly higher average purchase amount than Standard Shipping.
+- Loyal customers represented the largest customer segment.
+- Product discounts significantly influenced purchasing behavior.
 
--- Trend and pattern identification
+---
 
+# 🚀 Skills Demonstrated
 
--- Visualizations using charts and graphs
+### Python
 
+- Data Cleaning
+- Data Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis
 
-4. SQL Analysis
-   
---Performed SQL queries using:
+### SQL
 
+- Joins
+- CTEs
+- Window Functions
+- Aggregate Functions
+- Subqueries
+- CASE Statements
+- Ranking Functions
+- Business Queries
 
---> PostgreSQL
+### Power BI
 
+- KPI Cards
+- Bar Charts
+- Donut Charts
+- Slicers
+- Interactive Dashboard
+- DAX Measures
+- Data Visualization
 
---> MySQL
+---
 
+# 💼 Business Recommendations
 
---> SQL Server
+- Increase customer subscriptions by offering exclusive member benefits.
+- Reward repeat buyers through loyalty programs.
+- Promote top-rated products in marketing campaigns.
+- Optimize discount strategies to improve profitability.
+- Focus marketing efforts on high-revenue customer segments.
+- Improve inventory planning based on category performance.
 
+---
 
---Example operations:
+# ▶️ Getting Started
 
+## Clone Repository
 
--> Filtering and sorting
+```bash
+git clone https://github.com/amanpawar2004/customer_behavior_analysis.git
+```
 
+---
 
--> Aggregate functions
+## Install Required Libraries
 
+```bash
+pip install pandas numpy matplotlib seaborn psycopg2 jupyter
+```
 
--> Joins
+---
 
+## Run the Notebook
 
--> Group By analysis
+Open
 
+```
+Customer_Shopping_Behavior_Analysis.ipynb
+```
 
--> Subqueries
+Execute all cells.
 
+---
 
-5. Power BI Dashboard
-   
---Created an interactive dashboard to visualize:
+## PostgreSQL
 
+Create a database.
 
---KPIs and metrics
+Import the cleaned dataset.
 
+Run
 
---Trends and comparisons
+```
+customer_behavior_sql_queries.sql
+```
 
+---
 
---Charts and slicers
+## Power BI
 
+Open the Power BI dashboard file.
 
---Business insights
+Refresh the dataset connection.
 
+Explore the interactive dashboard.
 
-6. Report & Presentation
+---
 
+# 🎯 Learning Outcomes
 
---Generated a detailed analytical report
+This project enhanced my practical knowledge of:
 
+- Data Cleaning
+- Exploratory Data Analysis
+- SQL Query Optimization
+- PostgreSQL
+- Customer Segmentation
+- Business Analytics
+- Dashboard Development
+- Data Visualization
+- End-to-End Analytics Workflow
 
---Created a professional presentation using Gamma
+---
 
+# 📈 Future Enhancements
 
+- Machine Learning based Customer Segmentation
+- Customer Churn Prediction
+- Sales Forecasting
+- Recommendation System
+- Automated Dashboard Refresh
+- Cloud Deployment
 
+---
 
+# 👨‍💻 Author
 
-📊 Dashboard Highlights
+## Aman Pawar
 
---> The Power BI dashboard includes:
+**Data Analyst | SQL | Python | PostgreSQL | Power BI | Machine Learning**
 
+- GitHub: https://github.com/amanpawar2004
+- LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
 
---> Interactive visualizations
+---
 
+# ⭐ Support
 
---> Dynamic filtering
+If you found this project useful, please give it a ⭐ on GitHub.
 
+Your support motivates me to build more real-world Data Analytics and AI projects.
 
---> Performance metrics
+---
 
+## 📜 License
 
---> Comparative analysis
-
-
---> User-friendly design
-
-
-
-
-
-📈 Results & Insights
-
---> Key outcomes from the analysis:
-
-
---> Identified important trends and patterns
-
-
---> Improved understanding of the dataset
-
-
---> Generated actionable business insights
-
-
---> Created clear visual storytelling through dashboards and reports
-
-
-
-
-▶️ How to Run the Project
-
-1. Clone the Repository
---git clone https://github.com/your-username/project-name.git
-2. Install Required Libraries
---pip install pandas numpy matplotlib seaborn
-3. Run Jupyter Notebook
---jupyter notebook
-4. Open Power BI Dashboard
---Open the .pbix file in Power BI Desktop
-
-
-5. Run SQL Queries
-   
---Import dataset into PostgreSQL/MySQL/SQL Server
-
---Execute provided SQL scripts
-
-
-
-📁 Project Structure
-
-├── Dataset/
-
-├── Python_Notebooks/
-
-├── SQL_Queries/
-
-├── PowerBI_Dashboard/
-
-├── Reports/
-
-├── Presentation/
-
-└── README.md
-
-
-🚀 Future Improvements
-
-
---Add machine learning models
-
-
---Automate reporting process
-
-
---Deploy dashboard online
-
-
---Integrate real-time data sources
-
-
-
-👨‍💻 Author
-
-Aman Pawar
-
-Data Analytics Enthusiast | Python | SQL | Power BI
-
+This project is licensed under the MIT License.
