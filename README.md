@@ -157,6 +157,7 @@ The project answers multiple real-world business questions using PostgreSQL.
 # 📈 Power BI Dashboard
 
 The interactive dashboard provides business insights through multiple visualizations.
+![Dashboard](https://github.com/amanpawar2004/customer_behavior_analysis/blob/main/customer_shopping_behavior_ss.png?raw=true)
 
 ### Dashboard Features
 
